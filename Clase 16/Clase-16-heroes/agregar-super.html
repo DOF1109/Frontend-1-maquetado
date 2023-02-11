@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadí tu super!</title>
+    <link rel="stylesheet" href="/css/style-agregar.css">
+</head>
+
+<body>
+    <header>
+        <p class="descuento-agregar">20% de descuento en todos los productos!</p>
+        <div class="contenedor-titulo">
+            <img src="/img/Logo-agregar.png" alt="Logo de la tienda">
+            <h1 class="titulo">Nombre Tienda</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li>Contacto</li>
+                <li>Registrarme</li>
+                <li>Ingresar</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="cuerpo-principal">
+        <div class="contenedor-top">
+            <h2>Añadí tu super!</h2>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+        </div>
+        <form class="formulario" action="" method="">
+            <fieldset>
+                <div>
+                    <label for="nombre">*Nombre</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </div>
+                <div>
+                    <label for="fecha">*Fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+                </div>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label for="especie">*Especie</label>
+                    <input type="text" name="especie" id="especie" placeholder="Especie" required>
+                </div>
+                <div>
+                    <label for="foto">Agregar Foto</label>
+                    <input type="file" name="foto" id="foto">
+                </div>
+                <div>
+                    <legend>Poderes</legend>
+                    <input type="checkbox" name="volar" id="volar">
+                    <label for="volar">Volar</label>
+                    <input type="checkbox" name="inteligencia" id="inteligencia">
+                    <label for="inteligencia">Inteligencia</label>
+                    <input type="checkbox" name="vista-laser" id="vista-laser">
+                    <label for="vista-laser">Vista de rayo láser</label>
+                    <input type="checkbox" name="millonario" id="millonario">
+                    <label for="millonario">Billetera gorda</label>
+                </div>
+                <hr>
+                <div>
+                    <legend>Tipo de personaje</legend>
+                    <input type="radio" name="tipo-personaje" id="heroe">
+                    <label for="heroe">Héroe / Heroina</label>
+                    <input type="radio" name="tipo-personaje" id="villano">
+                    <label for="villano">Villano / Villana</label>
+                </div>
+            </fieldset>
+            <button type="submit">Añadir</button>
+        </form>
+    </section>
+
+    <footer>
+        <p class="texto-pie">Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
+
+<!--
+    https://www.figma.com/file/9XZ12ORXQuvMNg3ydKQtFo/Formulario-ll?node-id=22%3A6&t=myjHj3LT3ZuUq07l-0
+-->
